@@ -1,0 +1,125 @@
+*{
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+}
+
+main{
+    text-align: center;
+}
+
+header{
+    background-color: darkgrey;
+    padding: 50px 0; 
+}
+
+.home{
+    color: #000000;
+}
+
+.home:hover{
+    color: #fff;
+}
+
+.cabecalho{
+    text-align: center;
+    color: black;
+    font-size: 32px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: relative;
+    margin: 0 auto;
+    height: 50px;
+}
+
+.img{
+    width: 250px;
+    height: 350px;
+    border-radius: 10px;
+}
+
+.foto{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.foto li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background-image: url(../imgs/background.webp)
+}
+
+.foto li:hover{
+    background: rgb(77, 189, 127);
+}
+
+.foto li:active{
+    border-color: #ffffff;    
+}
+
+.foto h2{
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+
+h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+.foto-2{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+}
+
+.texto{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.container-texto{
+    width: 900px;
+}
+p{
+    display: inline-block;
+    text-align: center;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: 300;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+footer{
+    text-align: center;
+    background-color: darkgrey;
+    padding: 40px 0;
+    height: 50px;
+}
+
+.Copyright {
+    color: black;
+    font-size: 13px;
+    margin-top: 20px;
+}
+
+
+
+
+    
